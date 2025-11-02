@@ -8,7 +8,9 @@ const HeroSection = () => {
           <p className="text-white text-xs lg:text-sm font-medium">
             A Mobile SMS Link Checker With Content Preview For Android Devices
           </p>
-          <h1 className="text-4xl font-momo  text-heading py-2">LinkGuard</h1>
+          <h1 className="text-4xl font-momo tracking-wider text-heading py-2 lg:text-5xl xl:text-6xl">
+            LinkGuard
+          </h1>
           <p className="text-white mb-4 text-pretty text-sm font-light  md:text-center lg:text-start lg:w-110">
             LinkGuard is your first line of defense against malicious links in
             SMS messages. Download our app today to protect yourself from
@@ -36,7 +38,7 @@ const HeroSection = () => {
 
         <div className="lg:w-full">
           <img
-            className="py-10 object-fit xl:max-w-148"
+            className="py-10 object-fit lg:py-0"
             src={linkguard}
             alt="linkguard"
           />
