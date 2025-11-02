@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins";
+  --font-momo: "Momo Trust Display";
+
+  --color-primary: #0c2b4e;
+  --color-secondary: #1a3d64;
+  --color-tertiary: #1d546c;
+  --color-white: #f4f4f4;
+  --color-heading: #f6f8d5;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: var(--font-poppins);
+}
+
+.container {
+  width: 100%;
+  @media (width >= 40rem /* 640px */) {
+    max-width: 40rem /* 640px */;
+  }
+  @media (width >= 48rem /* 768px */) {
+    max-width: 48rem /* 768px */;
+  }
+  @media (width >= 64rem /* 1024px */) {
+    max-width: 64rem /* 1024px */;
+  }
+  @media (width >= 75rem /* 1200px */) {
+    max-width: 75rem /* 1200px */;
+  }
+}
