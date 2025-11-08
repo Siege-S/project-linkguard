@@ -40,7 +40,7 @@ const HeroSection = () => {
           <img
             className="py-10 object-fit lg:py-0"
             src={linkguard}
-            alt="linkguard"
+            alt="linkguard scanning SMS for malicious links"
           />
         </div>
       </div>
